@@ -1,0 +1,52 @@
+Rollout Metrics:
+ep_len_mean: 
+    - numero de timesteps por episode 
+    - indica quanto tempo um agente sobrevive
+
+ep_rew_mean:
+    - reward média por episode
+
+
+Time Metrics:
+fps:
+    - frames per second
+    - quanto mais alto o valor, mais rápido o treino
+
+iteration:
+    - número de iterações completadas pelo algorimto (PPO, AC2, etc)
+
+time_elapsed:
+    - tempo decorrido durante o treino (segundos)
+    - mostra quanto tempo dura o treino
+
+total_timesteps: 
+    - numero total de timesteps completados no total das iterações
+
+
+Train Metrics:
+approx_kl: (The Kullback-Leibler divergence is a measure of the dissimilarity between two probability distributions.)
+    - mede a divergência Kullback-Leibler entre a new policy e a old policy
+    - Interpretation: Measures how much the new policy deviates from the old one. A small value (e.g., 0.03) indicates stable updates. If this becomes too large, the learning rate or clip range may need adjustment.
+
+clip_fraction:
+    - 
+
+clip_range: HYPERPARAMETER
+    - threshold for clipping policy updates
+
+entropy_loss:
+    - entropia de uma policy
+    - valores altos negativos indicam que há pouca randomness e que o treino sestá a ficar determinístico
+
+explained_variance:
+    
+
+learning_rate: 
+
+loss:
+
+n_updates:
+
+policy_gradient_loss:
+
+value_loss:

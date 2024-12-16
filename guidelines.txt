@@ -1,0 +1,13 @@
+algorithms: (for each algorithm)
+    - hyperparameter tuning
+    - learning with best_params - original env
+    - testing
+    - analyse metrics and learning curves (best_params)
+
+
+class customization:
+    - suggest changes to the environment
+    - learn on that environment (1 or 2 algorithms - best_params) -- same number of iterations
+    - compare results with the original env
+
+
