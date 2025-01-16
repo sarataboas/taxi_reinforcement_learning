@@ -1,0 +1,12 @@
+python == 3.12.0
+gymnasium
+'gymnasium[toy_text]'
+swig == 4.3.0
+numpy
+scikit-learn
+matplotlib
+stable-baselines3
+pygame
+tensorflow
+tensorboard
+sb3_contrib
